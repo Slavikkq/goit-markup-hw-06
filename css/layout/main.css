@@ -8,7 +8,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/background.jpg);
+      url(../../images/background.jpg);
     background-repeat: no-repeat;
     max-width: 100%;
     background-position: center;
@@ -25,8 +25,7 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #ffffff;
-    width: 288px;
-    height: 160px;
+    width: 210px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
@@ -74,7 +73,7 @@
     margin-bottom: 8px;
     width: 288px;
     height: 40px;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -198,6 +197,11 @@
     transform: translateY(0%);
   }
 
+  .portfolio-image {
+    width: 288px;
+    height: 280px;
+  }
+
   .portfolio-list-img-wrapper {
     position: relative;
     overflow: hidden;
@@ -250,7 +254,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/background.jpg);
+      url(../../images/background.jpg);
     background-repeat: no-repeat;
     max-width: 100%;
     background-position: center;
@@ -270,7 +274,7 @@
     height: 120px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
   }
   .button {
     display: block;
@@ -304,13 +308,11 @@
   .about-us-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    column-gap: 20px;
+    row-gap: 72px;
+    column-gap: 24px;
   }
   .about-section-title {
     margin-bottom: 8px;
-    width: 264px;
-    height: 40px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -318,13 +320,14 @@
     color: #2e2f42;
   }
   .about-list-item {
-    width: 356px;
+    width: calc((100%-72) / 4);
   }
   .about-us-icons-container {
     display: none;
   }
   .about-section-text {
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -353,7 +356,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 64px;
+    row-gap: 64px;
+    column-gap: 24px;
   }
   .team-list-item {
     background-color: #ffffff;
@@ -492,7 +496,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/background.jpg);
+      url(../../images/background.jpg);
     background-repeat: no-repeat;
     max-width: 1440px;
     background-position: center;
@@ -733,5 +737,26 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+  }
+}
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
+  .hero-section {
+    padding: 72px 0;
+    background-color: #2e2f42;
+    height: 432px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../../images/adaptive-images/background@2x.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
   }
 }
