@@ -1,3 +1,5 @@
+/* =================MOBILE==================================================================================== */
+
 @media screen and (max-width: 767px) {
   /* HEADER */
   .open-mobile-menu-btn {
@@ -135,7 +137,7 @@
 
   .mobile-menu-address {
     font-style: normal;
-    margin-bottom: auto;
+    margin-bottom: 48px;
   }
   .mobile-menu-address-list {
     display: flex;
@@ -178,6 +180,8 @@
     fill: #f4f4fd;
   }
 }
+
+/* =================TABLET==================================================================================== */
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .open-mobile-menu-btn {
@@ -266,6 +270,8 @@
     color: #404bbf;
   }
 }
+
+/* =================DESKTOP==================================================================================== */
 
 @media screen and (min-width: 1158px) {
   .open-mobile-menu-btn {
