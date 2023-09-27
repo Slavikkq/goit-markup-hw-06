@@ -12,7 +12,7 @@
       ),
       url(../../images/mobile/background-mobile.jpg);
     background-repeat: no-repeat;
-    max-width: 100%;
+    max-width: 1440px;
     background-position: center;
     background-size: cover;
     margin-right: auto;
@@ -23,21 +23,11 @@
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
     .hero-section {
-      padding: 72px 0;
-      background-color: #2e2f42;
-      height: 432px;
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
         url(../../images/mobile/background-mobile@2x.jpg);
-      background-repeat: no-repeat;
-      max-width: 100%;
-      background-position: center;
-      background-size: cover;
-      margin-right: auto;
-      margin-left: auto;
-      align-items: center;
     }
   }
   .title {
@@ -288,12 +278,11 @@
 
   /*=======MODAL WINDOW=======*/
   .modal {
-    width: 288px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 408px;
+    width: 288px;
     min-height: 584px;
     padding: 40px;
     border-radius: 4px;
@@ -447,10 +436,16 @@
     color: #4d5ae5;
     text-decoration: underline;
   }
+
+  .review-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
   .review-form-button {
     display: block;
-    margin-left: 98px;
-    min-width: 169px;
+    margin: auto;
+    width: 169px;
     height: 56px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -477,14 +472,13 @@
   .hero-section {
     padding: 112px 0;
     background-color: #2e2f42;
-    height: 436px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../../images/tablet/background-tablet.jpg);
     background-repeat: no-repeat;
-    max-width: 100%;
+    max-width: 1440px;
     background-position: center;
     background-size: cover;
     margin-right: auto;
@@ -495,21 +489,11 @@
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
     .hero-section {
-      padding: 72px 0;
-      background-color: #2e2f42;
-      height: 436px;
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
         url(../../images/tablet/background-tablet@2x.jpg);
-      background-repeat: no-repeat;
-      max-width: 1536px;
-      background-position: center;
-      background-size: cover;
-      margin-right: auto;
-      margin-left: auto;
-      align-items: center;
     }
   }
 
@@ -947,7 +931,6 @@
   .hero-section {
     padding: 188px 0;
     background-color: #2e2f42;
-    height: 600px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -964,21 +947,11 @@
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
     .hero-section {
-      padding: 72px 0;
-      background-color: #2e2f42;
-      height: 600px;
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
         url(../../images/desktop/background-desktop@2x.jpg);
-      background-repeat: no-repeat;
-      max-width: 2880px;
-      background-position: center;
-      background-size: cover;
-      margin-right: auto;
-      margin-left: auto;
-      align-items: center;
     }
   }
 
